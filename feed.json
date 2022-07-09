@@ -1,0 +1,262 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Apple On Tech",
+	"icon": "https://micro.blog/AoT/avatar.jpg",
+	"home_page_url": "https://aow.micro.blog/",
+	"feed_url": "https://aow.micro.blog/feed.json",
+	"items": [
+		
+			{
+				"id": "http://aow.micro.blog/2022/07/02/by-an-amazing.html",
+				
+				"content_html": "<p>By an amazing mircale my wife has the next few days off which is very rare, so I plan on doing the family thing this weekend which will delay the next episode a couple days. My apologies, but family first. Have a great weekend everyone.</p>\n",
+				"content_text": "By an amazing mircale my wife has the next few days off which is very rare, so I plan on doing the family thing this weekend which will delay the next episode a couple days. My apologies, but family first. Have a great weekend everyone. \n",
+				"date_published": "2022-07-02T14:55:56-04:00",
+				"url": "https://aow.micro.blog/2022/07/02/by-an-amazing.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/07/01/today-i-discovered.html",
+				
+				"content_html": "<p>Today I discovered @urbit and I&rsquo;m confused&hellip; lol</p>\n<p><a href=\"https://urbit.org/\">urbit.org</a></p>\n",
+				"content_text": "Today I discovered @urbit and I'm confused... lol\r\n\r\n[urbit.org](https://urbit.org/)\n",
+				"date_published": "2022-07-01T06:11:20-04:00",
+				"url": "https://aow.micro.blog/2022/07/01/today-i-discovered.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/30/111529.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "\n\n<img src=\"uploads/2022/7ae8b795f7.png\" width=\"337\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-06-30T11:15:29-04:00",
+				"url": "https://aow.micro.blog/2022/06/30/111529.html",
+				"tags": ["MicroPosts","Funny Pics"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/30/playing-with-umbrel.html",
+				"title": "Playing with Umbrel Part 2 - Conclusion",
+				"content_html": "<p>After less than twenty-four hours, I have ordered a 1tb SSD drive and an 8GB stick of ram for my old Dell Inspiron 15. Umbrel is really great, but the disk io is seriously bottlenecked with this old spinning rust drive. But other than that it runs like a champ.</p>\n<p>At max usage so far it hasn&rsquo;t used more than 60% of it&rsquo;s 4GB of the ram that I installed <a href=\"https://nicolargo.github.io/glances/\">Glances</a> on it. I&rsquo;ve ssh&rsquo;d into it and have been monitoring. So these are the things I have played with/tried out and my thoughts.</p>\n<h3 id=\"tailscale\">Tailscale</h3>\n<p>The first thing I installed is <a href=\"https://tailscale.com/\">Tailscale</a> so I could get it on my VPN. This later facilitates using some services with my iPhone also since the entire system is designed to use <a href=\"https://www.torproject.org/\">Tor</a>. In general, like everything else with Tailscale, this was a piece of cake to set up.</p>\n<h3 id=\"nextcloud\">NextCloud</h3>\n<p>Again, a breeze to set up. I had it all configured in a few minutes. To use this on my iPhone I had to connect via Tailscale, which is nice really. It keeps everything pretty hidden.</p>\n<h3 id=\"gitea\">Gitea</h3>\n<p>This surprised me. I had never messed with <a href=\"https://gitea.io/en-us/\">Gitea</a> before. One, on my Umbrel it was installed and set up in a couple minutes. The surprising fact was it ran so well. It&rsquo;s super-fast, I am assuming that is helped by the fact it&rsquo;s written in <a href=\"https://go.dev\">Go</a>. I transferred a few repositories from Github to try it out and it really was a great experience. And with all the Copilot shenanigans, I think this will become my solution for personal projects and config files.</p>\n<h3 id=\"photoprism\">PhotoPrism</h3>\n<p>I installed <a href=\"https://photoprism.app/\">PhotoPrism</a> to check out. It seems like a nice alternative for photo hosting, but I didn&rsquo;t put in the effort to upload anything to it since I would be wiping this whole install as soon as my new SSD comes in today.</p>\n<h3 id=\"synapseelement\">Synapse/Element</h3>\n<p>I installed these and from what I can tell, this allows you to set up a private Matrix server you could use with friends and family. It does not connect to the rest of the Matrix ecosystem as far as I can tell. It may be a good private solution for a family chat though. Maybe I will experiment more in the future.</p>\n<h3 id=\"crypto-goodies\">Crypto Goodies</h3>\n<p>I did install a Bitcoin and Lightning node but removed them. It all seemed to work fine, but I saw no use in downloading the whole chain just to wipe it when the new drive comes in. Maybe I will talk about this more in the future.</p>\n<h3 id=\"things-i-didnt-try-yet-but-that-are-available\">Things I didn&rsquo;t try yet but that are available</h3>\n<ul>\n<li><a href=\"https://github.com/coder/code-server\">Code-Server</a> - Run VS Code on any machine anywhere and access it in the browser.</li>\n<li><a href=\"https://www.home-assistant.io/\">Home Assistant</a> - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.</li>\n<li><a href=\"https://github.com/dani-garcia/vaultwarden\">Vaultwarden</a> - Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients</li>\n</ul>\n<p>These were the more interesting ones, there is also Pi-hole and a bunch of various crypto tools and wallets.</p>\n<h3 id=\"conclusion\">Conclusion</h3>\n<p>The Umbrel is my new favorite toy. I can&rsquo;t wait to finalize my laptop and really start using it day to day. Next, I will have to delve into backup and restoration. My one fear is if I become dependent on this one source what do I do when disaster hits. I will be doing some research on this for sure.</p>\n<p>But as of now, it&rsquo;s going to be my Git server, NextCloud instance, Bitcoin and Lightning nodes, and photo archiving and organization.</p>\n",
+				"content_text": "After less than twenty-four hours, I have ordered a 1tb SSD drive and an 8GB stick of ram for my old Dell Inspiron 15. Umbrel is really great, but the disk io is seriously bottlenecked with this old spinning rust drive. But other than that it runs like a champ.\r\n\r\nAt max usage so far it hasn't used more than 60% of it's 4GB of the ram that I installed [Glances](https://nicolargo.github.io/glances/) on it. I've ssh'd into it and have been monitoring. So these are the things I have played with/tried out and my thoughts.\r\n\r\n### Tailscale\r\n\r\nThe first thing I installed is [Tailscale](https://tailscale.com/) so I could get it on my VPN. This later facilitates using some services with my iPhone also since the entire system is designed to use [Tor](https://www.torproject.org/). In general, like everything else with Tailscale, this was a piece of cake to set up.\r\n\r\n### NextCloud\r\n\r\nAgain, a breeze to set up. I had it all configured in a few minutes. To use this on my iPhone I had to connect via Tailscale, which is nice really. It keeps everything pretty hidden. \r\n\r\n### Gitea\r\n\r\nThis surprised me. I had never messed with [Gitea](https://gitea.io/en-us/) before. One, on my Umbrel it was installed and set up in a couple minutes. The surprising fact was it ran so well. It's super-fast, I am assuming that is helped by the fact it's written in [Go](https://go.dev). I transferred a few repositories from Github to try it out and it really was a great experience. And with all the Copilot shenanigans, I think this will become my solution for personal projects and config files. \r\n\r\n### PhotoPrism\r\n\r\nI installed [PhotoPrism](https://photoprism.app/) to check out. It seems like a nice alternative for photo hosting, but I didn't put in the effort to upload anything to it since I would be wiping this whole install as soon as my new SSD comes in today. \r\n\r\n### Synapse/Element\r\n\r\nI installed these and from what I can tell, this allows you to set up a private Matrix server you could use with friends and family. It does not connect to the rest of the Matrix ecosystem as far as I can tell. It may be a good private solution for a family chat though. Maybe I will experiment more in the future. \r\n\r\n### Crypto Goodies\r\n\r\nI did install a Bitcoin and Lightning node but removed them. It all seemed to work fine, but I saw no use in downloading the whole chain just to wipe it when the new drive comes in. Maybe I will talk about this more in the future. \r\n\r\n### Things I didn't try yet but that are available\r\n\r\n* [Code-Server](https://github.com/coder/code-server) - Run VS Code on any machine anywhere and access it in the browser.\r\n* [Home Assistant](https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server. \r\n* [Vaultwarden](https://github.com/dani-garcia/vaultwarden) - Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients\r\n\r\nThese were the more interesting ones, there is also Pi-hole and a bunch of various crypto tools and wallets. \r\n\r\n### Conclusion\r\n\r\nThe Umbrel is my new favorite toy. I can't wait to finalize my laptop and really start using it day to day. Next, I will have to delve into backup and restoration. My one fear is if I become dependent on this one source what do I do when disaster hits. I will be doing some research on this for sure. \r\n\r\nBut as of now, it's going to be my Git server, NextCloud instance, Bitcoin and Lightning nodes, and photo archiving and organization. \r\n\r\n",
+				"date_published": "2022-06-30T10:41:49-04:00",
+				"url": "https://aow.micro.blog/2022/06/30/playing-with-umbrel.html",
+				"tags": ["Blog"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/29/so-is-github.html",
+				
+				"content_html": "<p>So is #github #Copilot going to create a bunch of developers who can&rsquo;t code quite as well, similar to how GPS and Google Maps have created a generation of people who can&rsquo;t navigate very well?</p>\n",
+				"content_text": "So is \\#github \\#Copilot going to create a bunch of developers who can't code quite as well, similar to how GPS and Google Maps have created a generation of people who can't navigate very well?\n",
+				"date_published": "2022-06-29T20:48:46-04:00",
+				"url": "https://aow.micro.blog/2022/06/29/so-is-github.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/29/playing-with-umbrel.html",
+				"title": "Playing with Umbrel Part 1 ",
+				"content_html": "<p>So today, I&rsquo;m going to set up an <a href=\"https://umbrel.com\">Umbrel</a>. I&rsquo;ve wanted one for some time to run my own Lightning node, NextCloud, and Synapse. The goto device for these is a Raspberry Pi4 with 8GB memory. Unfortunately, these days I have a better chance of winning the lottery than getting my hands on one of these.</p>\n<p>To my delight, I stumbled upon an old laptop I forgot was there. It&rsquo;s an old Dell Inspiron with a 500GB spinning rust drive and 4GB of ram. I am installing Ubuntu Server on it and will test an Umbrel install. If it works reasonably ok, I will give the laptop an SSD and another 4GB ram.</p>\n<p>So I will update everyone on how it goes, hopefully well.</p>\n",
+				"content_text": "So today, I'm going to set up an [Umbrel](https://umbrel.com). I've wanted one for some time to run my own Lightning node, NextCloud, and Synapse. The goto device for these is a Raspberry Pi4 with 8GB memory. Unfortunately, these days I have a better chance of winning the lottery than getting my hands on one of these. \r\n\r\nTo my delight, I stumbled upon an old laptop I forgot was there. It's an old Dell Inspiron with a 500GB spinning rust drive and 4GB of ram. I am installing Ubuntu Server on it and will test an Umbrel install. If it works reasonably ok, I will give the laptop an SSD and another 4GB ram. \r\n\r\nSo I will update everyone on how it goes, hopefully well. \n",
+				"date_published": "2022-06-29T12:10:56-04:00",
+				"url": "https://aow.micro.blog/2022/06/29/playing-with-umbrel.html",
+				"tags": ["Blog"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/28/i-dont-use.html",
+				
+				"content_html": "<p>I don&rsquo;t use Vim, but man I have to give respect on a new release! <a href=\"https://www.vim.org/vim90.php\">Vim 9.0</a></p>\n",
+				"content_text": "I don't use Vim, but man I have to give respect on a new release! [Vim 9.0](https://www.vim.org/vim90.php)\r\n\r\n",
+				"date_published": "2022-06-28T18:34:31-04:00",
+				"url": "https://aow.micro.blog/2022/06/28/i-dont-use.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/28/part-of-what.html",
+				
+				"content_html": "<p>Part of what I would like to do with the podcast is keeping people updated on some of their favorite apps. If there is an app you want me to track for news or releases please share. Windows or Linux, bonus points if it&rsquo;s cross-platform or cli.</p>\n<p>#Linux #Windows #commandline #cli</p>\n",
+				"content_text": "Part of what I would like to do with the podcast is keeping people updated on some of their favorite apps. If there is an app you want me to track for news or releases please share. Windows or Linux, bonus points if it's cross-platform or cli. \r\n\r\n\\#Linux \\#Windows \\#commandline \\#cli \n",
+				"date_published": "2022-06-28T18:09:43-04:00",
+				"url": "https://aow.micro.blog/2022/06/28/part-of-what.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/28/ep-rebranding.html",
+				"title": "Ep2 - Rebranding",
+				"content_html": "<!-- raw HTML omitted -->\n<h1 id=\"show-notes\">Show Notes</h1>\n<p>I only took one episode and I rebranded things, I explain why real quick. This also helps me get the feed ready for this week.</p>\n<h2 id=\"link-to-episode-commentshttpsmastodontechnologywebappleontech108556713000132140\"><a href=\"https://mastodon.technology/web/@AppleOnTech/108556713000132140\">Link to episode comments</a></h2>\n<h2 id=\"follow-the-show\">Follow the show:</h2>\n<ul>\n<li><a href=\"https://mastodon.technology/web/@AppleOnTech\">Mastodon</a></li>\n<li><a href=\"https://micro.blog/AoT\">Micro.Blog</a></li>\n<li><a href=\"https://twitter.com/appleontech\">Twitter</a></li>\n<li>You can always email me <a href=\"mailto:tim@appleontech.com\">here</a> also.</li>\n</ul>\n<h2 id=\"podcast-20-clients\">Podcast 2.0 Clients</h2>\n<ul>\n<li><a href=\"https://fountain.fm\">Fountain</a> - Mobile</li>\n<li><a href=\"https://podverse.fm/\">Podverse</a> - Mobile, Web</li>\n<li><a href=\"https://curiocaster.com/\">Curiocaster</a> - Web</li>\n</ul>\n<h2 id=\"grab-a-feed\">Grab a feed</h2>\n<ul>\n<li><a href=\"https://appleontech.com/showfeed.xml\">Podcast Feed</a></li>\n<li><a href=\"http://ipfspodcasting.net/RSS/112/AppleonTech.xml\">IPFS Podcast Feed</a></li>\n<li><a href=\"https://appleontech.com/feed.xml\">Website RSS</a></li>\n</ul>\n<h3 id=\"remember-to-boost-from-your-app-or-you-can-always-boost-from-the-site-with-alby-wallet-extension-in-your-browserhttpsgetalbycom\">Remember to boost from your app or you can always boost from the site with <a href=\"https://getalby.com/\">Alby wallet extension in your browser.</a></h3>\n",
+				"content_text": "<center>\n<audio controls>\n        <source src=\"https://cligamer.us-southeast-1.linodeobjects.com/AoW-ep2.1-rebranding.mp3\" type=\"audio/mp3\">\n        <p>\n            Your browser doesn't support HTML5 audio.\n            Here is a <a href=\"https://cligamer.us-southeast-1.linodeobjects.com/AoW-ep2.1-rebranding.mp3\">link to download the audio</a> instead.\n          </p>\n    </audio>\n</center>\n</br>\n\n# Show Notes\nI only took one episode and I rebranded things, I explain why real quick. This also helps me get the feed ready for this week. \n\n## [Link to episode comments](https://mastodon.technology/web/@AppleOnTech/108556713000132140)\n\n## Follow the show: \n* [Mastodon](https://mastodon.technology/web/@AppleOnTech)\n* [Micro.Blog](https://micro.blog/AoT)\n* [Twitter](https://twitter.com/appleontech)\n* You can always email me [here](mailto:tim@appleontech.com) also. \n\n## Podcast 2.0 Clients\n\n* [Fountain](https://fountain.fm) - Mobile\n* [Podverse](https://podverse.fm/) - Mobile, Web\n* [Curiocaster](https://curiocaster.com/) - Web\n\n## Grab a feed\n* [Podcast Feed](https://appleontech.com/showfeed.xml)\n* [IPFS Podcast Feed](http://ipfspodcasting.net/RSS/112/AppleonTech.xml)\n* [Website RSS](https://appleontech.com/feed.xml)\n\n\n### Remember to boost from your app or you can always boost from the site with [Alby wallet extension in your browser.](https://getalby.com/)\n",
+				"date_published": "2022-06-28T15:19:43-04:00",
+				"url": "https://aow.micro.blog/2022/06/28/ep-rebranding.html",
+				"tags": ["Podcast"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/27/name-your-five.html",
+				
+				"content_html": "<p>Name your five favorite apps on #Linux or #Windows.</p>\n<p>Me:</p>\n<ol>\n<li>@StandardNotes</li>\n<li><a href=\"https://micro.blog/code\">@code</a></li>\n<li>@mozthunderbird</li>\n<li>@Firefox</li>\n<li>@JrnlSh</li>\n</ol>\n",
+				"content_text": "Name your five favorite apps on \\#Linux or \\#Windows. \r\n\r\nMe:\r\n1. @StandardNotes\r\n2. [@code](https://micro.blog/code)\r\n3. @mozthunderbird\r\n4. @Firefox\r\n5. @JrnlSh\r\n\r\n",
+				"date_published": "2022-06-27T22:05:20-04:00",
+				"url": "https://aow.micro.blog/2022/06/27/name-your-five.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/27/rebranding.html",
+				"title": "Rebranding",
+				"content_html": "<p>I&rsquo;ve decided to generalize. A few days ago, this was the <em>Apple on Windows</em> podcast. But after some conversations with people in the fediverse, I think it&rsquo;s better to generalize. So we are now <em>Apple on Tech</em>. Same thing, but coverage will be Windows and Linux mainly, plus whatever odds and ends may catch my eye.</p>\n<p>I still would like to cover news on projects for people. So I want to build a list of project-related RSS feeds of the more popular or interesting ones. I will base my reporting off of that.</p>\n<p>I also thought of a segment where it&rsquo;s 5 minutes of my Twitter feed, basically reviewing whatever chaos is on there while recording. That&rsquo;s a maybe. But it could be a fun segment.</p>\n<p>Either way, still here, just with a new name. Catch you at the end of the week.</p>\n",
+				"content_text": "I've decided to generalize. A few days ago, this was the _Apple on Windows_ podcast. But after some conversations with people in the fediverse, I think it's better to generalize. So we are now _Apple on Tech_. Same thing, but coverage will be Windows and Linux mainly, plus whatever odds and ends may catch my eye. \r\n\r\nI still would like to cover news on projects for people. So I want to build a list of project-related RSS feeds of the more popular or interesting ones. I will base my reporting off of that. \r\n\r\nI also thought of a segment where it's 5 minutes of my Twitter feed, basically reviewing whatever chaos is on there while recording. That's a maybe. But it could be a fun segment. \r\n\r\nEither way, still here, just with a new name. Catch you at the end of the week. \n",
+				"date_published": "2022-06-27T21:39:07-04:00",
+				"url": "https://aow.micro.blog/2022/06/27/rebranding.html",
+				"tags": ["Blog"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/27/im-absolutely-amazed.html",
+				
+				"content_html": "<p>I&rsquo;m absolutely amazed Netflix has released a show called &ldquo;Snowflakes&rdquo; and no one is out to cancel them yet&hellip; 🤣😂🤣😂</p>\n",
+				"content_text": "I'm absolutely amazed Netflix has released a show called \"Snowflakes\" and no one is out to cancel them yet... 🤣😂🤣😂\n",
+				"date_published": "2022-06-27T12:38:46-04:00",
+				"url": "https://aow.micro.blog/2022/06/27/im-absolutely-amazed.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/27/trying-out-whalebird.html",
+				
+				"content_html": "<p>Trying out Whalebird again for Mastodon so I can not be logged into 3 instances on the browser.</p>\n",
+				"content_text": "Trying out Whalebird again for Mastodon so I can not be logged into 3 instances on the browser. \n",
+				"date_published": "2022-06-27T11:58:10-04:00",
+				"url": "https://aow.micro.blog/2022/06/27/trying-out-whalebird.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/27/i-really-dont.html",
+				
+				"content_html": "<p>I really don&rsquo;t understand how a product like Outlook can&rsquo;t have CalDav/CardDav built in.</p>\n",
+				"content_text": "I really don't understand how a product like Outlook can't have CalDav/CardDav built in. \n",
+				"date_published": "2022-06-27T11:35:35-04:00",
+				"url": "https://aow.micro.blog/2022/06/27/i-really-dont.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/26/this-is-a.html",
+				
+				"content_html": "<p>This  is a good writeup on Podcasting 2.0</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "This  is a good writeup on Podcasting 2.0\r\n\r\n<blockquote class=\"quoteback\" data-title=\"\" data-author=\"9to5mac.com\" data-avatar=\"https://micro.blog/9to5mac.com/avatar.jpg\" cite=\"https://9to5mac.com/2022/06/26/podcasting-2-0/\"><p>Podcasting 2.0 ushers in a new era for podcasting - 9to5Mac <a href=\"https://9to5mac.com/2022/06/26/podcasting-2-0/\">9to5mac.com</a></p><footer>9to5mac.com <cite><a href=\"https://9to5mac.com/2022/06/26/podcasting-2-0/\" class=\"u-in-reply-to\">https://9to5mac.com/2022/06/26/podcasting-2-0/</a></cite></footer></blockquote><script src=\"https://micro.blog/quoteback.js\"></script>\n",
+				"date_published": "2022-06-26T13:22:31-04:00",
+				"url": "https://aow.micro.blog/2022/06/26/this-is-a.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/26/i-see-very.html",
+				
+				"content_html": "<p>I see very little #Microsoft, #dotnet, or #Windows content on Mastodon. Is it because it&rsquo;s mostly a foss space and people are avoiding the haters? If you use Mastodon and are a Windows enthusiast, please share your page so I can follow.</p>\n<p><a href=\"https://masto.aow.show/web/@tim\">masto.aow.show/web/@tim</a></p>\n",
+				"content_text": "I see very little \\#Microsoft, \\#dotnet, or \\#Windows content on Mastodon. Is it because it's mostly a foss space and people are avoiding the haters? If you use Mastodon and are a Windows enthusiast, please share your page so I can follow. \r\n\r\n[masto.aow.show/web/@tim](https://masto.aow.show/web/@tim)\n",
+				"date_published": "2022-06-26T08:02:57-04:00",
+				"url": "https://aow.micro.blog/2022/06/26/i-see-very.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/26/im-wondering-what.html",
+				
+				"content_html": "<p>I&rsquo;m wondering what the implications of copilot on what little crap code I have on GitHub are? Or is it really just paranoia, and everything is good. From what I understand, whatever it collects comes from those using copilot. So it doesn&rsquo;t touch your data if you don&rsquo;t use it?</p>\n",
+				"content_text": "I'm wondering what the implications of copilot on what little crap code I have on GitHub are? Or is it really just paranoia, and everything is good. From what I understand, whatever it collects comes from those using copilot. So it doesn't touch your data if you don't use it?\n",
+				"date_published": "2022-06-26T07:24:51-04:00",
+				"url": "https://aow.micro.blog/2022/06/26/im-wondering-what.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/25/i-just-started.html",
+				
+				"content_html": "<p>I just started playing with <a href=\"https://obsidian.md/\">Obsidian</a> for the first time today, first thing I&rsquo;m liking right away is the Daily not plugin. Nice and simple.</p>\n<p>#notes</p>\n",
+				"content_text": "I just started playing with [Obsidian](https://obsidian.md/) for the first time today, first thing I'm liking right away is the Daily not plugin. Nice and simple. \r\n\r\n\\#notes \n",
+				"date_published": "2022-06-25T12:41:11-04:00",
+				"url": "https://aow.micro.blog/2022/06/25/i-just-started.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/25/another-crosspost-test.html",
+				
+				"content_html": "<p>another crosspost test</p>\n",
+				"content_text": "another crosspost test\n",
+				"date_published": "2022-06-25T06:04:16-04:00",
+				"url": "https://aow.micro.blog/2022/06/25/another-crosspost-test.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/24/episode-who-what.html",
+				"title": "Episode 1 - Who, what, and why",
+				"content_html": "<!-- raw HTML omitted -->\n<h1 id=\"show-notes\">Show Notes</h1>\n<p>Welcome to the inaugural episode! I talk about the who, what, and why of <em>Apple on Windows!</em></p>\n<p><a href=\"https://aow.show/2022/06/23/the-making-of.html\">Inagurial blog post</a> - The making of my ultimate personal podcast ecosystem</p>\n<p><a href=\"https://getalby.com/\">Get an Alby wallet to boost from the site.</a></p>\n<h2 id=\"podcast-20-clients\">Podcast 2.0 Clients</h2>\n<ul>\n<li><a href=\"https://fountain.fm\">Fountain</a> - Mobile</li>\n<li><a href=\"https://podverse.fm/\">Podverse</a> - Mobile, Web</li>\n<li><a href=\"https://curiocaster.com/\">Curiocaster</a> - Web</li>\n</ul>\n",
+				"content_text": "<center>\r\n<audio controls>\r\n        <source src=\"https://cligamer.us-southeast-1.linodeobjects.com/AoW_Ep_1.mp3\" type=\"audio/mp3\">\r\n        <p>\r\n            Your browser doesn't support HTML5 audio.\r\n            Here is a <a href=\"https://cligamer.us-southeast-1.linodeobjects.com/AoW_Ep_1.mp3\">link to download the audio</a> instead.\r\n          </p>\r\n    </audio>\r\n</center>\r\n</br>\r\n\r\n# Show Notes\r\n\r\nWelcome to the inaugural episode! I talk about the who, what, and why of _Apple on Windows!_\r\n\r\n[Inagurial blog post](https://aow.show/2022/06/23/the-making-of.html) - The making of my ultimate personal podcast ecosystem\r\n\r\n[Get an Alby wallet to boost from the site.](https://getalby.com/)\r\n\r\n## Podcast 2.0 Clients\r\n\r\n* [Fountain](https://fountain.fm) - Mobile\r\n* [Podverse](https://podverse.fm/) - Mobile, Web\r\n* [Curiocaster](https://curiocaster.com/) - Web\r\n",
+				"date_published": "2022-06-24T15:18:36-04:00",
+				"url": "https://aow.micro.blog/2022/06/24/episode-who-what.html",
+				"tags": ["Podcast"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/24/132658.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "\n\n<img src=\"uploads/2022/a2d03e6bbd.jpg\" width=\"536\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-06-24T13:26:58-04:00",
+				"url": "https://aow.micro.blog/2022/06/24/132658.html",
+				"tags": ["MicroPosts","Funny Pics"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/24/playing-with-logos.html",
+				
+				"content_html": "<p>Playing with Logos&hellip;</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Playing with Logos... \n\n<img src=\"uploads/2022/2f746a1f0c.png\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-06-24T06:55:54-04:00",
+				"url": "https://aow.micro.blog/2022/06/24/playing-with-logos.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/24/i-didnt-like.html",
+				
+				"content_html": "<p>I didn&rsquo;t like the fluent colors&hellip;to bold. Trying a Nord color scheme now..lol</p>\n<p><a href=\"https://aow.show\">Check Here</a></p>\n",
+				"content_text": "I didn't like the fluent colors...to bold. Trying a Nord color scheme now..lol\r\n\r\n[Check Here](https://aow.show)\n",
+				"date_published": "2022-06-24T05:55:21-04:00",
+				"url": "https://aow.micro.blog/2022/06/24/i-didnt-like.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/24/i-switched-the.html",
+				
+				"content_html": "<p>I switched the new site to Fluent Design colors since it&rsquo;s a Windows themed project. I&rsquo;m not sure about the link color, what do you all think? You can see it at <a href=\"https://aow.show/categories/blog/\">here.</a>.</p>\n<p>#themeing #website</p>\n",
+				"content_text": "I switched the new site to Fluent Design colors since it's a Windows themed project. I'm not sure about the link color, what do you all think? You can see it at [here.](https://aow.show/categories/blog/).\r\n\r\n\\#themeing \\#website\n",
+				"date_published": "2022-06-24T05:19:14-04:00",
+				"url": "https://aow.micro.blog/2022/06/24/i-switched-the.html",
+				"tags": ["MicroPosts"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/23/220454.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "\n\n<img src=\"uploads/2022/2225838290.png\" width=\"600\" height=\"337\" alt=\"\" />\n",
+				"date_published": "2022-06-23T22:04:54-04:00",
+				"url": "https://aow.micro.blog/2022/06/23/220454.html",
+				"tags": ["MicroPosts","Funny Pics"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/23/the-making-of.html",
+				"title": "The making of my ultimate personal podcast ecosystem",
+				"content_html": "<p>I have been playing with podcasting for a little while now. I started testing on <a href=\"https://micro.blog\">Micro.Blog</a>. It is a nice little setup; I love it for blogging and syndicated tweets/toots. But their built-in podcasting feature was too basic for what I had in mind. Then I tried one of the podcast hosts, which I found to be restrictive, with little wiggle room. At that point, I went dyi, set up a webserver, wrote my own HTML and CSS, got a CDN, and rolled that way. Which worked fairly well, though it was a lot of work. My podcast <a href=\"https://noexpectations.show\">No Expectations</a> will continue that way. But I needed something more complete.</p>\n<p>I looked at static site generators, WordPress, more podcast hosting platforms, and multiple other little apps and services. As I reflected on all the things I&rsquo;ve tried, Micro.Blog is my favorite tool, so I needed to go back and revisit it and build an entire podcast ecosystem on it.</p>\n<p>It begins with me starting a fresh Micro.Blog account, I didn&rsquo;t want anything from my past account to muck up what I was trying to do. I wanted to ensure the podcast name, blog title username, and ActivityPub element were aligned and on-brand.</p>\n<p>Regarding the look, I already had a working theme I really like. I plan on changing the color scheme, but in general, it&rsquo;s perfect for what I want to do. I am also very familiar with it and know most of the bits and pieces I need to tweak. Once the color change is done, all I need is a logo which I&rsquo;m trying to make happen soon.</p>\n<p>Next, to lay things out how I want, I need a couple of plugins. First is the &lsquo;Reply by Email&rsquo; plugin, and I needed the &lsquo;Custom home page&rsquo; plugin. Reply by email gives me the first form of communication with the audience, placing an easy link to send in feedback with the episode name as a subject. I should mention it is there for blog posts and videos also. While the Custom home page plugin does as it says and gives me a landing page when you first visit the website instead of showing you a string of posts. This leads me to categories and pages.</p>\n<p>So the main categories and pages I will be having on the site (there may be others in the future) are.</p>\n<ul>\n<li>Blog - Standard text blog posts like this one.</li>\n<li>MicroPosts - Short posts with no title, tweets/toots that will be crossposted to Mastodon and Twitter.</li>\n<li>Podcast - The list of podcast episodes themselves.</li>\n<li>Videos - I plan on making supplemental videos for some of the audio posts where a visual aid may add value.</li>\n</ul>\n<p>This will hopefully make it easy for visitors to find what they need.</p>\n<p>Micro.Blog itself creates an RSS feed people can use to subscribe to the site, and they will get all the site&rsquo;s activity fed to them in whichever reader or tool they choose to use. But I also need something for the podcast episodes themselves. So I use <a href=\"https://sovereignfeeds.com/\">Sovereign Feeds</a> to generate my show feed. This allows me to use all the features of the <a href=\"https://podcastindex-org.github.io/docs-api/#overview--postman\">Podcast 2.0</a> API. Things like Value 4 Value, Per episode artwork, commenting, chapters, transcripts, and many others exist or are in the works. Thanks to <a href=\"https://micro.blog/sod\">@sod</a> of the MicroBlog community, I was taught where to place this file in my custom theme and have exposed it so I can point the <a href=\"https://podcastindex.org/\">Podcast Index</a> to it. Maybe Apple or Spotify also in the future; the jury is out on that one.</p>\n<p>Regarding the files themselves, I have a chunk of block storage at <a href=\"https://www.linode.com/\">Linode</a>, where they will stay. This allows me to keep the burden off of Micro.Blog and also gives me no limit on filesize and plenty of bandwidth. I should mention all Video and Audio will live there; if anything ends up on Youtube, peertube, or something else, it will always be secondary.</p>\n<p>Then there is the social aspect which Micro.Blog and the Podcasting 2.0 spec cover so well with ActivityPub. So everything I mentioned before that happens on the site will crosspost to Mastodon and Twitter. In addition, Micro.blog has ActivityPub built-in and its own address that can be seen on other ActivityPub-enabled networks. This allows me to use the MicroBlog activity pub to link comments from Podcasting 2.0-enabled podcast clients or sites directly to the episodes posted on the site. And the old faithful follow-up is the reply by mail link on every post.</p>\n<p>So this is how I see the sequence happening; at the time of writing this, it&rsquo;s theoretical, but I&rsquo;m pretty sure it will work, as I said. Either way, this is the workflow I see.</p>\n<ol>\n<li>Record the episode, edit, and put it up on Linode.</li>\n<li>Create the post, which serves as a place to play the content and will contain the show notes and pertinent links.</li>\n<li>Post-it (add this time, the episode is live on the website but won&rsquo;t be showing up in podcatchers yet)</li>\n<li>Create the updated feed.xml at Sovereign Feeds using links from the site, the Linode, and activity pub information.</li>\n<li>This is the clunky part; I take the info from the new feed file and past it into the existing one on the site.</li>\n<li>I use Podping to notify the Podcast Index the feed has been updated. This will then let clients know it&rsquo;s available also.</li>\n</ol>\n<p>Now that I&rsquo;ve spit out all this info, it will be time to make it happen. I&rsquo;ll be doing a short intro episode for the podcast tomorrow to test everything out. The site still is very much under construction as far as aesthetics go and content, but it functions now. After that, I think I will have my ultimate podcast home if it goes as planned.</p>\n<p>Cheers!</p>\n<h2 id=\"amending-6252022\">Amending 6/25/2022</h2>\n<p>So after the first episode was released I found out things would not work exactly as planned socially. The podcast comments through ActivityPub on Micro.Blog will not work Directly from Micro.Blog does not seem to interact with the Podcasting 2.0 comment tag in the way I imagined. So the episode post needs to crosspost to Mastodon and the conversation that proceeds from there&rsquo;s comments will crosspost back.</p>\n<p>So Mastodon users and Micro.Blog users both can comment still and my process is still the same pretty much, but the social link changes to point directly to my Mastodon instance. This way it will work in apps such as Podfriend and Podverse.</p>\n<p>So if you are not a Micro.Blog user, be sure to follow me on <a href=\"https://masto.aow.show/web/@tim\">Mastodon</a>. Everything new from today on will be posted there.</p>",
+				"content_text": "I have been playing with podcasting for a little while now. I started testing on [Micro.Blog](https://micro.blog). It is a nice little setup; I love it for blogging and syndicated tweets/toots. But their built-in podcasting feature was too basic for what I had in mind. Then I tried one of the podcast hosts, which I found to be restrictive, with little wiggle room. At that point, I went dyi, set up a webserver, wrote my own HTML and CSS, got a CDN, and rolled that way. Which worked fairly well, though it was a lot of work. My podcast [No Expectations](https://noexpectations.show) will continue that way. But I needed something more complete. \n\n<!--more-->\n\nI looked at static site generators, WordPress, more podcast hosting platforms, and multiple other little apps and services. As I reflected on all the things I've tried, Micro.Blog is my favorite tool, so I needed to go back and revisit it and build an entire podcast ecosystem on it. \n\nIt begins with me starting a fresh Micro.Blog account, I didn't want anything from my past account to muck up what I was trying to do. I wanted to ensure the podcast name, blog title username, and ActivityPub element were aligned and on-brand. \n\nRegarding the look, I already had a working theme I really like. I plan on changing the color scheme, but in general, it's perfect for what I want to do. I am also very familiar with it and know most of the bits and pieces I need to tweak. Once the color change is done, all I need is a logo which I'm trying to make happen soon. \n\nNext, to lay things out how I want, I need a couple of plugins. First is the 'Reply by Email' plugin, and I needed the 'Custom home page' plugin. Reply by email gives me the first form of communication with the audience, placing an easy link to send in feedback with the episode name as a subject. I should mention it is there for blog posts and videos also. While the Custom home page plugin does as it says and gives me a landing page when you first visit the website instead of showing you a string of posts. This leads me to categories and pages. \n\nSo the main categories and pages I will be having on the site (there may be others in the future) are.\n\n * Blog - Standard text blog posts like this one.\n * MicroPosts - Short posts with no title, tweets/toots that will be crossposted to Mastodon and Twitter. \n * Podcast - The list of podcast episodes themselves.\n * Videos - I plan on making supplemental videos for some of the audio posts where a visual aid may add value. \n\nThis will hopefully make it easy for visitors to find what they need. \n\nMicro.Blog itself creates an RSS feed people can use to subscribe to the site, and they will get all the site's activity fed to them in whichever reader or tool they choose to use. But I also need something for the podcast episodes themselves. So I use [Sovereign Feeds](https://sovereignfeeds.com/) to generate my show feed. This allows me to use all the features of the [Podcast 2.0](https://podcastindex-org.github.io/docs-api/#overview--postman) API. Things like Value 4 Value, Per episode artwork, commenting, chapters, transcripts, and many others exist or are in the works. Thanks to [@sod](https://micro.blog/sod) of the MicroBlog community, I was taught where to place this file in my custom theme and have exposed it so I can point the [Podcast Index](https://podcastindex.org/) to it. Maybe Apple or Spotify also in the future; the jury is out on that one. \n\nRegarding the files themselves, I have a chunk of block storage at [Linode](https://www.linode.com/), where they will stay. This allows me to keep the burden off of Micro.Blog and also gives me no limit on filesize and plenty of bandwidth. I should mention all Video and Audio will live there; if anything ends up on Youtube, peertube, or something else, it will always be secondary. \n\nThen there is the social aspect which Micro.Blog and the Podcasting 2.0 spec cover so well with ActivityPub. So everything I mentioned before that happens on the site will crosspost to Mastodon and Twitter. In addition, Micro.blog has ActivityPub built-in and its own address that can be seen on other ActivityPub-enabled networks. This allows me to use the MicroBlog activity pub to link comments from Podcasting 2.0-enabled podcast clients or sites directly to the episodes posted on the site. And the old faithful follow-up is the reply by mail link on every post. \n\nSo this is how I see the sequence happening; at the time of writing this, it's theoretical, but I'm pretty sure it will work, as I said. Either way, this is the workflow I see. \n\n1. Record the episode, edit, and put it up on Linode. \n2. Create the post, which serves as a place to play the content and will contain the show notes and pertinent links. \n3. Post-it (add this time, the episode is live on the website but won't be showing up in podcatchers yet)\n4. Create the updated feed.xml at Sovereign Feeds using links from the site, the Linode, and activity pub information. \n5. This is the clunky part; I take the info from the new feed file and past it into the existing one on the site. \n6. I use Podping to notify the Podcast Index the feed has been updated. This will then let clients know it's available also. \n\nNow that I've spit out all this info, it will be time to make it happen. I'll be doing a short intro episode for the podcast tomorrow to test everything out. The site still is very much under construction as far as aesthetics go and content, but it functions now. After that, I think I will have my ultimate podcast home if it goes as planned.\n\nCheers!\n\nAmending 6/25/2022\n---\nSo after the first episode was released I found out things would not work exactly as planned socially. The podcast comments through ActivityPub on Micro.Blog will not work Directly from Micro.Blog does not seem to interact with the Podcasting 2.0 comment tag in the way I imagined. So the episode post needs to crosspost to Mastodon and the conversation that proceeds from there's comments will crosspost back. \n\nSo Mastodon users and Micro.Blog users both can comment still and my process is still the same pretty much, but the social link changes to point directly to my Mastodon instance. This way it will work in apps such as Podfriend and Podverse. \n\nSo if you are not a Micro.Blog user, be sure to follow me on [Mastodon](https://masto.aow.show/web/@tim). Everything new from today on will be posted there. \n",
+				"date_published": "2022-06-23T21:51:34-04:00",
+				"url": "https://aow.micro.blog/2022/06/23/the-making-of.html",
+				"tags": ["Blog"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/23/your-browser-does.html",
+				"title": "Test Video Post",
+				"content_html": "<!-- raw HTML omitted -->\n<p>This is a test post for Video, it is an episode of my cligamer podcast.</p>\n",
+				"content_text": "<video width=\"600\" controls>\n        <source src=\"https://cligamer.us-southeast-1.linodeobjects.com/cg_ep_002.mp4\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n      </video> \n\nThis is a test post for Video, it is an episode of my cligamer podcast. \n\n",
+				"date_published": "2022-06-23T21:16:53-04:00",
+				"url": "https://aow.micro.blog/2022/06/23/your-browser-does.html",
+				"tags": ["Videos"]
+			},
+			{
+				"id": "http://aow.micro.blog/2022/06/23/this-is-the.html",
+				
+				"content_html": "<p>This is the inaugural test post for the Apple on Windows website&hellip; more to come.</p>\n",
+				"content_text": "This is the inaugural test post for the Apple on Windows website... more to come. \n",
+				"date_published": "2022-06-23T12:53:10-04:00",
+				"url": "https://aow.micro.blog/2022/06/23/this-is-the.html",
+				"tags": ["MicroPosts"]
+			}
+	]
+}
